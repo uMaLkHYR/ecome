@@ -1,0 +1,977 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playwrite+CU:wght@1');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Gupter:wght@400;50');
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+
+
+.cont .nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(245, 232, 248);
+}
+
+.cont .nav h1{
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.cont .nav .list ul{
+    display: flex;
+    list-style: none;
+}
+
+.cont .nav .list ul li a{
+    text-decoration: none;
+    font-size:1.5em;
+    margin: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.cont .nav .list .icon {
+    margin: 10px;
+    font-size: 1.5em;
+    margin-left: 150px;
+}
+
+.cont .nav .list .icon i {
+    margin: 7px;
+    font-size: 1.5em;
+   
+}
+
+
+
+@media only screen and (max-width:600px){
+
+    .cont .nav .list ul{
+        display: block;
+        list-style: none;
+       
+    }
+
+
+    .cont .nav .icon i{
+        margin: 10px;
+        font-size: 1.5em;
+       
+    }
+
+    .navbar-toggler-icon{
+        margin-left: 5px;
+        
+       
+    }
+
+}
+
+
+.hero{
+    background-image: url('./images/3-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+}
+
+.hero p{
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: -100px;
+   
+}
+.hero span{
+    color: rgb(207, 5, 55);
+    font-size: 3em;
+    position: relative;
+    top:-100px;
+    left: 400px;
+    font-family:"Playwrite CU", cursive;;
+}
+
+.hero button{
+
+    position: relative;
+    top: 360px;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(207, 5, 55);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.3em;
+    
+}
+
+/* hero 1 */
+.hero{
+    background-image: url('./images//co.jfif');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    
+}
+
+.hero p{
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 450px;
+   
+}
+.hero span{
+    color: rgb(207, 5, 55);
+    font-size: 9em;
+    position: relative;
+    top:100px;
+    left: 100px;
+    font-family:"Playwrite CU", cursive;;
+}
+
+.hero button{
+
+    position: relative;
+    top: 250px;
+    left: -350px;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(207, 5, 55);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.3em;
+    
+}
+
+
+/* hero 2 */
+
+.hero2{
+    background-image: url('./images/pb2.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+}
+
+.hero2 p{
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 450px;
+   
+}
+.hero2 span{
+    color: rgb(207, 5, 55);
+    font-size: 9em;
+    position: relative;
+    top:100px;
+    left: 100px;
+    font-family:"Playwrite CU", cursive;;
+}
+
+.hero2 button{
+
+    position: relative;
+    top: 250px;
+    left: -350px;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(207, 5, 55);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.3em;
+    
+}
+
+
+/* hero 3 */
+.hero3{
+    background-image: url('./images/3-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+}
+
+.hero3 p{
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 450px;
+   
+}
+.hero3 span{
+    color: rgb(207, 5, 55);
+    font-size: 9em;
+    position: relative;
+    top:100px;
+    left: 100px;
+    font-family:"Playwrite CU", cursive;;
+}
+
+.hero3 button{
+
+    position: relative;
+    top: 250px;
+    left: -350px;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(207, 5, 55);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.3em;   
+}
+
+.mm{
+    display: flex;
+    padding: 20px;
+}
+
+
+@media only screen and (max-width:600px) {
+
+    /* hero1 phone */
+
+    .hero{
+        background-image: url('./images/mch.avif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;
+        text-align: center;
+    }
+    
+    .hero p{
+        font-size: 2em;
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 250px;
+        left: 50px;
+       
+    }
+    .hero span{
+        color: rgb(207, 5, 55);
+        font-size: 5em;
+        position: relative;
+        top:150px;
+        left: 0px;
+        font-family:"Playwrite CU", cursive;;
+    }
+    
+    .hero button{
+    
+        position: relative;
+        top: 200px;
+        padding: 10px;
+        width: 200px;
+        height: 40px;
+        background-color: rgb(207, 5, 55);
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-size: 1em;
+        
+    }
+
+
+
+    /* hero2 phone */
+
+
+    .hero2{
+        background-image: url('./images/mch2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;
+        text-align: center;
+    }
+    
+    .hero2 p{
+        font-size: 2em;
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 250px;
+        left: 50px;
+       
+    }
+    .hero2 span{
+        color: rgb(207, 5, 55);
+        font-size: 5em;
+        position: relative;
+        top:150px;
+        left: 0px;
+        font-family:"Playwrite CU", cursive;;
+    }
+    
+    .hero2 button{
+    
+        position: relative;
+        top: 200px;
+        padding: 10px;
+        width: 200px;
+        height: 40px;
+        background-color: rgb(207, 5, 55);
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-size: 1em;
+        
+    }
+
+
+    .hero3{
+        background-image: url('./images/mch3.avif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;
+        text-align: center;
+    }
+    
+    .hero3 p{
+        font-size: 2em;
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 250px;
+        left: 50px;
+       
+    }
+    .hero3 span{
+        color: rgb(207, 5, 55);
+        font-size: 5em;
+        position: relative;
+        top:150px;
+        left: 0px;
+        font-family:"Playwrite CU", cursive;;
+    }
+    
+    .hero3 button{
+    
+        position: relative;
+        top: 200px;
+        padding: 10px;
+        width: 200px;
+        height: 40px;
+        background-color: rgb(207, 5, 55);
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-size: 1em; 
+    }  
+}
+
+
+
+
+
+/* section3 style */
+.section3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+   
+}
+
+.section3 .sec1{
+   background-image: url('./images/p12.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100%;
+   grid-row-start: 1;
+   grid-row-end: 4;
+   grid-column: 1 /span 1;
+  
+
+}
+
+
+.section3 .sec1{
+    align-content: center;
+}
+
+
+.section3 .sec1 button {
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+   background-color: white;
+   margin-left: 170px;
+}
+
+
+.section3 .sec2{
+    background-image: url('./images/co.jfif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+   
+    grid-column-start: 2;
+    grid-column-end: 3;
+      
+ }
+
+
+ .section3 .sec2 button {
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+   background-color: white;
+   margin-top: 70px;
+}
+
+
+ .section3 .sec3{
+    background-image: url('./images/pre4.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    
+    text-align: center;
+    margin: 10px;
+   grid-column-start: 3;
+   grid-column-end: 4;
+    
+ }
+ .section3 .sec3 button {
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+   background-color: white;
+   margin-top: 70px;
+}
+ 
+
+ .section3 .sec4{
+    background-image: url('./images/chg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+    
+    grid-column-start: 2;
+    grid-column-end:3;
+   
+ }
+
+ .section3 .sec4 button {
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+   background-color: white;
+   margin-top: 70px;
+}
+
+ .section3 .sec5{
+    background-image: url('./images/co.jfif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+  
+ }
+
+ .section3 .sec5 button {
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+   background-color: white;
+   margin-top: 70px;
+}
+
+/* section 3 responsive phone */
+
+@media only screen and (max-width:600px){
+    .section3{
+        display: block;
+  
+    }
+
+    .section3 .sec1{
+        background-image: url('./images/spr.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+      
+     }
+    
+     .section3 .sec1{
+         align-content: center;
+     }
+
+     .section3 .sec1 button {
+        width: 200px;
+        height: 70px;
+        border-radius: 5px;
+        border: none;
+        text-align: center;
+        font-size: 20px;
+       background-color: white;
+       margin-left: 100px;
+    }
+
+}
+
+
+/* section 4 responsive phone */
+
+@media only screen and (max-width:600px){
+    .ecom .row {
+        display: block;
+        margin-left: 40px;
+    }
+
+    .ecom .row .col .card{
+        width: 80%;
+        margin-top: 10px;
+    }
+}
+
+
+/* section5 resposive phone */
+
+@media only screen and (max-width:600px){
+    .section5 .container {
+        width: 80%;
+        padding: 20px;
+        
+    }
+
+    .section5 .container h2{
+        margin-top: -30px;
+        font-size: 1em;
+      
+    }
+
+    .section5 .container p{
+        font-size: 0.8em;
+    }
+}
+ 
+ /* section6  phone */
+
+ .about{
+    text-align: center;
+    padding: 20px;
+ }
+
+ .about h3{
+    font-size: 4em;
+    color: rgb(203, 17, 240);
+    font-family: "Great Vibes", cursive;
+ }
+
+ .about h1{
+    font-size: 4em;
+ }
+
+
+ /* section6 responsive phone */
+
+ @media only screen and (max-width:600px){
+    .section6{
+        margin-top: 1200px;
+    }
+
+    .about h3{
+        font-size: 2em;
+        color: rgb(203, 17, 240);
+        font-family: "Great Vibes", cursive;
+     }
+    
+     .about h1{
+        font-size: 2em;
+     }
+
+     .about p{
+        font-size: 14px;
+     }
+ }
+
+
+ /* section7 responsive phone */
+
+ @media only screen and (max-width:600px){
+    .section7 .container .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section7 .container .row .card{
+        margin-top: 10px;
+    }
+ }
+ 
+ .card1{
+    background-image: url('./images/3-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    align-content: center;
+    text-align: center;
+ }
+
+ .card1 p{
+    font-size: 2em;
+
+ }
+
+ .card1 h4{
+    font-size: 3em;
+ }
+
+ .customer {
+    padding: 30px;
+    text-align: center;
+
+ }
+
+ .customer h3{
+    font-size: 4em;
+    color: rgb(203, 17, 240);
+    font-family: "Great Vibes", cursive;
+
+ }
+
+ .customer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+ }
+
+ /* section9 */
+ .news{
+    display: flex;
+    padding: 50px;
+    background-color: rgb(247, 244, 244);
+ }
+
+ .news .input{
+    padding: 50px;
+ }
+
+ 
+ .news .input input{
+    width: 350px;
+    border: none;
+    border-bottom: solid 2px;
+    outline: none;
+ }
+
+
+ .news .input button{
+    width: 120px;
+    padding: 10px;
+    background: #000;
+    border: none;
+    color: white;
+ }
+
+ .news .newstext h3{
+    font-family: "Gupter", serif;
+    font-size: 3em;
+ }
+ 
+  /* section9  responsive mobile*/
+ @media only screen and (max-width:600px){
+    .news{
+        display: block;
+    }
+
+    .news .input input{
+        width: 250px;
+        border: none;
+        border-bottom: solid 2px;
+        outline: none;
+        margin-left: -40px;
+     }
+ 
+ .news .input button{
+    width: 100px;
+    padding: 10px;
+    background: #000;
+    border: none;
+    color: white;
+    margin: 10px;
+ }
+
+ .news .newstext{
+    text-align: center;
+ }
+ .news .newstext h3{
+    font-family: "Gupter", serif;
+    font-size: 3em;
+ }
+ }
+
+
+ /* section10 responsive phone*/
+
+@media only screen and (max-width:600px){
+    .section10 .row {
+      display: block;
+   
+     }
+
+     
+     .section10  .card{
+      width: 100%;
+      margin-top: 10px;
+     }
+
+     .section10 .card img{
+       width: 80%;
+     }
+
+
+
+     .cardtext{
+        padding: 10px;
+     }
+}
+
+ .cardtext{
+    padding: 30px;
+ }
+
+
+ /* section 11 responsive phone */
+
+ @media only screen and (max-width:600px){
+    .brand .row{
+        display: block;  
+    }
+
+    .brand .row .col{
+        margin-top: 10px;
+    }
+ }
+
+  /* section 11 */
+ .brand{
+    padding: 60px;
+    background-color: rgb(224, 220, 223);
+    margin-top: 30px;
+ }
+
+ /* section 12 */
+ .footer{
+    background-color: #e4cae2;
+    color: rgb(5, 0, 0);
+    padding: 100px;
+ }
+
+  /* section 12 resposive*/
+
+@media only screen and (max-width:600px){
+    .footer .row{
+        display: block;
+      }
+
+      .footer .row .col{
+        margin-top: 20px;
+      }
+}
+
+ .lfooter{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    color: white;
+ }
+
+ /* contact page style */
+
+ .contact{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    gap: 50px;
+ }
+
+ .contact .contactform{
+    width: 50%;
+    
+ }
+
+ .contact .contactmap{
+    width: 50%;
+   
+ }
+
+ .contact .contactmap iframe{
+    width: 100%;
+ }
+
+ .contact .contactform form{
+    width: 100%;
+ }
+
+
+ /* shop page style */
+
+ .shop{
+    margin-top: 50px;
+}
+
+.shop .row{
+    width: 100%;
+}
+ .shop .row .col .card .card-body img{
+ width: 100%; 
+ height: 200px;
+ object-fit: cover;
+ object-position: 50% 5%;
+ }
+/* shop page resposive */
+
+@media only screen and (max-width:600px){
+    .shop{
+        margin-top: 50px;
+     
+    }
+
+    .shop .row  {
+        display: block;
+        width: 100%;
+       
+    }
+}
+
+
+/* cart page style */
+
+  .cart{
+    background: rgb(241, 241, 239);
+  }
+
+  .cart .row .col{
+    margin-top: 100px;
+  }
+/* cart page resposive */
+
+@media only screen and (max-width:600px){
+
+    .cart{
+        background: rgb(241, 241, 239);
+      }
+    
+      .cart .row{
+        width: 100%;
+        margin-top: 100px;
+      
+      }
+
+      .cart .row .col{
+        width: 100%;
+      }
+
+      .cart .row .col-4{
+        width: 100%;
+      }
+
+}
+
+@media only screen and (max-width:600px){
+    .mm{
+        display: block;
+    }
+
+    .mm .mtext{
+        width: 100%;
+    }
+
+    .mm .mmimg{
+        width: 100%;
+    }
+
+    .mm .mmimg img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:600px){
+ .contact{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    gap: 0px;
+ }
+
+ .contact .contactform{
+    width: 100%; 
+ }
+
+ .contact .contactmap{
+    width: 100%;
+ }
+
+ .contact .contactmap iframe{
+    width: 100%;
+ }
+
+ .contact .contactform form{
+    width: 100%;
+ }
+}
+
+
